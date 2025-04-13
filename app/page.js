@@ -11,13 +11,20 @@ export default function Home() {
           <li> Owner information management</li>
           <li> Announcement and notification system</li>
           <li> Document downloads (meeting minutes, management rules, etc.)</li>
-          
         </ul>
       </section>
+      
       <section style={{ marginTop: '2rem' }}>
         <h2>API Endpoint (from environment variable):</h2>
         <p style={{ color: 'green' }}>{apiUrl}</p>
       </section>
+      
+      <section style={{ marginTop: '2rem' }}>
+        <h2>Downloads:</h2>
+        <img src="/images/building.jpeg" alt="Building" width={400} />
+        <br />
+        <a href="/docs/info.pdf" download>Download Strata Bylaws (PDF)</a>
+        </section>
     </main>
   );
 }

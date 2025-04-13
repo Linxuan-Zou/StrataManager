@@ -9,18 +9,18 @@ export default function Home() {
         <h2>Features:</h2>
         <ul>
           <li> Owner information management</li>
-          <li> Announcement and notification system</li>
-          <li> Document downloads (meeting minutes, management rules, etc.)</li>
+          <li> Announcement and notification</li>
+          <li> Document downloads</li>
         </ul>
       </section>
       
       <section style={{ marginTop: '2rem' }}>
-        <h2>API Endpoint (from environment variable):</h2>
+        <h2>Environment variable API:</h2>
         <p style={{ color: 'green' }}>{apiUrl}</p>
       </section>
       
       <section style={{ marginTop: '2rem' }}>
-        <h2>Downloads:</h2>
+        <h2>Infomation:</h2>
         <img src="/images/building.jpeg" alt="Building" width={400} />
         <br />
         <a href="/docs/info.pdf" download>Download Strata Bylaws (PDF)</a>

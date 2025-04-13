@@ -23,7 +23,7 @@ export default function Home() {
         <h2>Infomation:</h2>
         <img src="/images/building.jpeg" alt="Building" width={400} />
         <br />
-        <a href="/docs/info.pdf" download>Download Strata Bylaws (PDF)</a>
+        <a href="/docs/info.pdf" download>Download PDF</a>
         </section>
     </main>
   );
